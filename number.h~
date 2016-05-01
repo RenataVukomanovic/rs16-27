@@ -1,0 +1,22 @@
+#ifndef NUM
+#define NUM
+
+#include <QString>
+
+class Number{
+public:
+    Number(unsigned num)
+        : m_num(num)
+    {}
+
+    //set
+    void setNum(unsigned num) {m_num = num;};
+
+    //get
+    Number getNum() const {return m_num;};
+
+private:
+    unsigned m_num;
+};
+
+#endif
